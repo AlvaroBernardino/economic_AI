@@ -3,3 +3,6 @@ __pycache__/
 .env
 /data
 *.pyc
+/scripts/indicadores_economicos.ipynb
+/scripts/acoes.ipynb
+/scripts/noticias.ipynb
