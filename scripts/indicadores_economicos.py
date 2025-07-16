@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import os
 from datetime import datetime
 
 # Mapeamento dos indicadores e seus códigos SGS
@@ -33,7 +34,14 @@ def coletar_indicadores_bacen(indicadores: dict, n_ultimos: int = 20) -> pd.Data
     df_final.rename(columns={"data": "data", "valor": "valor"}, inplace=True)
     return df_final
 
+# Define o caminho absoluto com base na localização do script
+base_dir = os.path.dirname(__file__)
+output_path = os.path.join(base_dir, "..", "data", "indicadores_economicos.csv")
+
+# Garante que a pasta de destino exista
+os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
 # Coletar e salvar
 df_indicadores = coletar_indicadores_bacen(indicadores)
-df_indicadores.to_csv("../data/indicadores_economicos.csv", index=False, encoding="utf-8-sig")
-print("✅ Arquivo 'indicadores_economicos.csv' salvo com sucesso.")
+df_indicadores.to_csv(output_path, index=False, encoding="utf-8-sig")
+print(f"✅ Arquivo '{output_path}' salvo com sucesso.")
