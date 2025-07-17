@@ -1,3 +1,4 @@
+# indicadores_economicos.py
 import requests
 import pandas as pd
 import os
