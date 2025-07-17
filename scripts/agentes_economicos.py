@@ -182,6 +182,7 @@ print(resultado_crew) # Isso vai mostrar a estrutura do objeto CrewOutput
 # Tentativa 1: Acessar um atributo 'result' ou 'raw' se o objeto for um Pydantic model
 # ou tiver um atributo específico para o output textual.
 # Vamos testar com str() primeiro, que é mais genérico.
+
 if hasattr(resultado_crew, 'raw') and isinstance(resultado_crew.raw, str):
     texto_para_salvar = resultado_crew.raw
 elif hasattr(resultado_crew, 'result') and isinstance(resultado_crew.result, str): # Comum em versões mais antigas ou específicas
