@@ -1,5 +1,7 @@
 ![Banner](img/economic_ai_banner.jpg)
 
+[Link para a página do aplicativo](https://pagina-saida-hwgjgkdbhvb2ctbj.canadacentral-01.azurewebsites.net)
+
 ## 🎯 Objetivo
 
 Criar uma plataforma automatizada que simula o trabalho de uma equipe de analistas de investimento, utilizando **IA generativa com agentes colaborativos**, dados econômicos reais e visualização web. O sistema responde a perguntas financeiras e entrega relatórios escritos por uma IA treinada para atuar como analista econômico, especialista em ações e redator financeiro.
