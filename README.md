@@ -1,8 +1,4 @@
-# 📈 Economic AI: Análise de Investimentos com CrewAI, Azure e Streamlit
-
-Projeto de portfólio para Engenharia de IA que integra coleta de dados econômicos, análise automatizada com agentes de IA e visualização interativa via Streamlit. O sistema gera **relatórios de recomendação de ações** com base em indicadores econômicos, comportamento de ações da B3 e notícias recentes sobre o mercado financeiro.
-
----
+![Banner](img/economic_ai_banner.jpg)
 
 ## 🎯 Objetivo
 
