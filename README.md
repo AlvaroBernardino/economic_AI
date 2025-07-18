@@ -1,6 +1,7 @@
 ![Banner](img/economic_ai_banner.jpg)
 
 [Link para a página do aplicativo](https://pagina-saida-hwgjgkdbhvb2ctbj.canadacentral-01.azurewebsites.net)
+(Temporariamente desativado, precisa ser rodado localmente)
 
 ## 🎯 Objetivo
 
